@@ -46,7 +46,7 @@ public class ProductController {
     public ResponseEntity<Product> read(@PathVariable String id)
     {
 
-        // Move to a separate method called withdraw()
+        // Move to a separate method called withdraw
         log.info("Read Request: {}", id);
         try
         {

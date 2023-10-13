@@ -7,6 +7,7 @@ import com.enviro.assessment.grad001.ChumaNxazonke.GraduateSoftwareDeveloperAsse
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
+//Interface
 @Repository
 public interface InvestorRepo extends CrudRepository<Investor, String> {
 

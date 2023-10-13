@@ -6,7 +6,7 @@ import com.enviro.assessment.grad001.ChumaNxazonke.GraduateSoftwareDeveloperAsse
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
-
+//Interface
 public interface ProductRepo extends CrudRepository<Product, String> {
     List<Product> findAllByInvestorId(String investorId);
 }

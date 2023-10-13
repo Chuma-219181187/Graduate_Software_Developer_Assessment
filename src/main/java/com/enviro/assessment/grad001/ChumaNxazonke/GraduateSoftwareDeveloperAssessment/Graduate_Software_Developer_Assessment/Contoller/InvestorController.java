@@ -26,7 +26,7 @@ public class InvestorController {
 
     @GetMapping
     public List<Investor> findAllConsumers() {
-//Implement
+//Implementation
         return (List<Investor>) investorRepo.findAll();
 
     }

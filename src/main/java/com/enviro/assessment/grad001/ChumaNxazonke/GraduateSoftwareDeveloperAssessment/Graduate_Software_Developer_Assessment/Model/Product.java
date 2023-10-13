@@ -7,7 +7,7 @@ import javax.persistence.*;
 @Table (name = "Product")
 public class Product {
 
-    //Declaring all the variable
+    //Declaring all the variables
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

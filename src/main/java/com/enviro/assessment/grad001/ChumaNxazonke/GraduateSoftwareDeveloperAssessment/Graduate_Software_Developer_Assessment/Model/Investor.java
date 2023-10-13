@@ -13,7 +13,7 @@ import javax.persistence.*;
 @Table(name = "Consumer")
 public class Investor {
 
-    //Declaring all the variable for this class
+    //Declaring all the variable for this class now
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
 
