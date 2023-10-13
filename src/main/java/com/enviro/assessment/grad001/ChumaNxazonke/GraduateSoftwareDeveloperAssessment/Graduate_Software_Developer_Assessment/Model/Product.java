@@ -3,6 +3,7 @@ package com.enviro.assessment.grad001.ChumaNxazonke.GraduateSoftwareDeveloperAss
 import javax.persistence.*;
 
 @Entity
+
 @Table (name = "Product")
 public class Product {
 

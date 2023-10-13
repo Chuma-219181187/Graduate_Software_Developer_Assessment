@@ -3,6 +3,7 @@ package com.enviro.assessment.grad001.ChumaNxazonke.GraduateSoftwareDeveloperAss
 
 import com.enviro.assessment.grad001.ChumaNxazonke.GraduateSoftwareDeveloperAssessment.Graduate_Software_Developer_Assessment.Model.Product;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.validation.annotation.Validated;
@@ -13,13 +14,12 @@ import com.enviro.assessment.grad001.ChumaNxazonke.GraduateSoftwareDeveloperAsse
 import org.springframework.http.ResponseEntity;
 
 
-
 @RestController
+@Slf4j
 @RequestMapping("/Graduate_Software_Developer_Assessment/Product")
 
 
 public class ProductController {
-
 
     private ProductService productService;
 
