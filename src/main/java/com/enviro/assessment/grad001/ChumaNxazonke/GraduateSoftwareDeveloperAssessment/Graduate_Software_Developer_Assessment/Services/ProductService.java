@@ -5,6 +5,6 @@ import com.enviro.assessment.grad001.ChumaNxazonke.GraduateSoftwareDeveloperAsse
 import java.util.List;
 
 public interface ProductService extends IService <Product, String> {
-
+    List<Product> findAllByInvestorId(String investorId);
     List<Product> findAll();
 }
